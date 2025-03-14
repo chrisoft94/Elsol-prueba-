@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Elsol-prueba
+Esta prueba técnica consiste en desarrollar una aplicación utilizando Next.js 14 y React 18 con TypeScript, consumiendo la API pública de JSONPlaceholder.
 
-## Getting Started
 
-First, run the development server:
+El objetivo es mostrar datos de usuarios, publicaciones y comentarios en una interfaz interactiva y accesible. Se valoran buenas prácticas de desarrollo, organización del código y uso de herramientas adicionales como TanStack Query para el manejo de datos y ShadCN para los componentes de UI.
 
-```bash
+Tecnologías Requeridas
+
+React 18
+
+Next.js 14
+
+TypeScript
+
+Tecnologías Opcionales (pero valoradas)
+
+TanStack Query (React Query) para optimización en la obtención y manejo de datos.
+
+ShadCN para mejorar la accesibilidad y estética de la interfaz.
+
+API Pública Utilizada
+
+Se consumirá la API de JSONPlaceholder para obtener la siguiente información:
+
+Usuarios: GET /users
+
+Publicaciones: GET /posts
+
+Comentarios de una publicación: GET /posts/:id/comments
+
+Se pueden combinar estos endpoints para mostrar relaciones, por ejemplo, listar usuarios con sus publicaciones y comentarios asociados.
+
+Instalación y Ejecución
+
+Clonar el repositorio:
+
+git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DEL_PROYECTO>
+
+Instalar dependencias:
+
+npm install
+
+Ejecutar el proyecto en modo desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir en el navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Decisiones Técnicas
 
-## Learn More
+Next.js 14 se usa por su capacidad de Server Components y optimización del rendimiento.
 
-To learn more about Next.js, take a look at the following resources:
+TypeScript permite un desarrollo más seguro y organizado.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+TanStack Query (si se usa) mejora la gestión del estado de datos obtenidos de la API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ShadCN (si se usa) permite una UI accesible y altamente personalizable.
 
-## Deploy on Vercel
+Entrega
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para completar la prueba:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Subir el código a un repositorio público en GitHub o GitLab.
+
+Compartir el enlace del repositorio para revisión.
+
+Video en Youtube
+
+
+
+Contacto
+
+Si tienes alguna duda sobre la prueba, puedes escribir a cristian062094@hotmail.com
