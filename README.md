@@ -34,8 +34,8 @@ Instalación y Ejecución
 
 Clonar el repositorio:
 
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_PROYECTO>
+git clone https://github.com/chrisoft94/Elsol-prueba-.git
+
 
 Instalar dependencias:
 
